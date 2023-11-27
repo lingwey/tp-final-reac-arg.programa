@@ -1,0 +1,28 @@
+
+header{
+    background-color: aqua;
+    display: flex;
+ 
+}
+
+.cajaLogueoRegistro{
+    margin-left: 50%;
+}
+
+
+.logueoRegistro{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.logueoRegistro a{
+    font-size: 20px;
+}
+.logueoRegistro a:hover{
+    text-decoration: underline;
+}
+
+.logueoRegistro li{
+    margin: 15px;
+}

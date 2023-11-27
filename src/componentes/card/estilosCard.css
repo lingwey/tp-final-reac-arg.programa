@@ -1,0 +1,44 @@
+.listaProductos{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    max-width: 550px;
+    max-height: 350px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1.1);
+}
+.card:hover{
+    box-shadow: 0 4px 8px rgba(255, 99, 71, 1.5);
+}
+
+.cardImagen{
+    width: 50%
+}
+.cardDescYComprar{
+    width: 50%
+}
+.cardImagen img{
+    width:80%
+}
+
+.cardPrecio{
+    color: green;
+}
+
+@media (max-width: 649px){
+    .listaProductos{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .descripcion{
+        display: none;
+    }
+    .card:hover .descripcion{
+        display: block
+    }
+}
