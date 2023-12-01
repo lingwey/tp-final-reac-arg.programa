@@ -1,0 +1,26 @@
+.product-presenta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  .product-imagen {
+    text-align: center;
+  }
+  
+  .product-imagen img {
+    max-width: 100%; 
+    height: auto; 
+  }
+  
+  .product-descripcion {
+    margin-top: 20px;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .product-presenta {
+      padding: 20px; 
+    }
+  }

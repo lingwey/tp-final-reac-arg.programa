@@ -1,4 +1,3 @@
-import React from "react"
 import { Link } from "react-router-dom"
 //import BtnComprar from "../btn/BtnComprar"
 
@@ -15,10 +14,8 @@ const Card= ({productos}) => {
             </div>
             <div className="cardDescYComprar">
                 <h4>Descripcion</h4>
-                <p className="descripcion">{producto.descripcion}</p>
                 <p className="cardPrecio">${producto.precio}</p>
-                <p>ID: {producto.id}</p>
-                <Link className="verCard" to={`/producto/${producto}`}>ver mas</Link>
+                <Link className="verCard" to={`/card/${producto.id}`}>ver mas</Link>{/**/}
             </div>
         </div>
         )
