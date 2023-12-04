@@ -13,6 +13,12 @@ export  const Header = () => {
                     <li><Link to="./Loguear">login</Link></li>
                     <li><Link to="./Registro">registrarse</Link></li>{/**/}
                 </ul>
+                <ul className="filtrado">
+                    <li><Link to= "/productos">todos</Link></li>
+                    <li><Link to="/productos/clasicos">clasicos</Link></li>
+                    <li><Link to="/productos/mecanicos">mecanicos</Link></li>
+                    <li><Link to="/productos/secmentados">secmentados</Link></li>
+                </ul>
             </div>
 
         </header>

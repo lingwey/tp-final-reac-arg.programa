@@ -2,48 +2,54 @@
      [
       {
         "id": 1,
-        "imagen": "src/imagenes/teclado 1.jpg",
+        "imagen": "https://laopinion.com/wp-content/uploads/sites/3/2023/03/shutterstock_1927143695.jpg?w=1200",
         "nombre": "Teclado 1",
+        "categoria":"mecanicos",
         "descripcion": "Ideal para jugadores que buscan retroalimentación táctil y audible. Interruptores mecánicos ofrecen mayor durabilidad y respuesta rápida. Iluminación RGB personalizable para un aspecto atractivo.",
         "precio": 24.99,
         "cantidadDisponible": 30
       },
       {
         "id": 2,
-        "imagen": "src/imagenes/teclado 2.jpg",
+        "imagen": "https://s1.eestatic.com/2023/06/30/actualidad/775433030_234375352_1706x960.jpg",
         "nombre": "Teclado 2",
+        "categoria":"clasicos",
         "descripcion": "Diseño delgado y portátil, perfecto para usuarios en movimiento. Conexión inalámbrica para mayor flexibilidad. Funciones multimedia integradas para conveniencia adicional.",
         "precio": 34.99,
         "cantidadDisponible": 20
       },
       {
         "id": 3,
-        "imagen": "src/imagenes/teclado 3.jpg",
+        "imagen": "https://m.media-amazon.com/images/I/513ZpklwbRL.jpg",
         "nombre": "Teclado 3",
+        "categoria":"mecanicos",
         "descripcion": "Diseñado para minimizar la fatiga y el estrés en largas sesiones de escritura. Distribución de teclas ergonómica para una postura más natural. Teclas silenciosas para un entorno de trabajo tranquilo.",
         "precio": 14.99,
         "cantidadDisponible": 40
       },
       {
         "id": 4,
-        "imagen": "src/imagenes/teclado 4.jpg",
+        "imagen": "https://m.media-amazon.com/images/I/717OUp0S2KL._AC_UF894,1000_QL80_.jpg",
         "nombre": "Teclado 4",
+        "categoria":"mecanicos",
         "descripcion": "Iluminación ajustable para trabajar en entornos oscuros. Teclas de acceso rápido para funciones de edición de video. Diseñado para facilitar la navegación y el control preciso.",
         "precio": 14.99,
         "cantidadDisponible": 40
       },
       {
         "id": 5,
-        "imagen": "src/imagenes/teclado 5.jpg",
+        "imagen": "data:image/jpeg;base64,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",
         "nombre": "Teclado 5",
+        "categoria":"secmentados",
         "descripcion": "Diseñado para su uso con tabletas y teléfonos inteligentes. Conexión Bluetooth para una experiencia inalámbrica. Teclas táctiles sensibles para una escritura rápida y precisa.",
         "precio": 7.99,
         "cantidadDisponible": 40
       },
       {
         "id": 6,
-        "imagen": "src/imagenes/teclado 6.jpg",
+        "imagen": "https://www.paris.cl/on/demandware.static/-/Sites-paris-marketplace/default/dw65dbba33/images/imagenes-productos/800/MKX0/MKX055XWFP-0001-001.jpg",
         "nombre": "Teclado 6",
+        "categoria":"secmentados",
         "descripcion": "Compacto y fácil de transportar, perfecto para viajeros frecuentes. Plegable para ahorrar espacio en la bolsa. Conexión Bluetooth para dispositivos móviles y tabletas.",
         "precio": 7.99,
         "cantidadDisponible": 40

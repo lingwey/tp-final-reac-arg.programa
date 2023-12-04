@@ -15,7 +15,7 @@ const Card= ({productos}) => {
             <div className="cardDescYComprar">
                 <h4>Descripcion</h4>
                 <p className="cardPrecio">${producto.precio}</p>
-                <Link className="verCard" to={`/card/${producto.id}`}>ver mas</Link>{/**/}
+                <Link className="verCard" to={`/producto/${producto.id}`}>ver mas</Link>{/**/}
             </div>
         </div>
         )
